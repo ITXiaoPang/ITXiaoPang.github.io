@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 挨踢教室
+subtitle: 'IT知识'
+description: '挨踢小胖的个人空间'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 挨踢小胖
+language: zh
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
