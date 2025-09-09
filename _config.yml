@@ -8,12 +8,12 @@ subtitle: 'IT知识'
 description: '挨踢小胖的个人空间'
 keywords:
 author: 挨踢小胖
-language: zh
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://ITXiaoPang.github.io/project
 root: /
 permalink: /p/:abbrlink/
 permalink_defaults:
