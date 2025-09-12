@@ -14,10 +14,8 @@ categories:
   - 包管理
   - uv
 date: 1751802289305
-updated: 1757398657344
+updated: 1757670120377
 ---
-
-\[toc]
 
 # 格式转换
 
@@ -49,6 +47,7 @@ uvx migrate-to-uv
 | 删除包      | uv remove `包1` `包2`                             | poetry remove `包1` `包2`                       | 删除不用的依赖                  |
 | 安装特定版本的包 | uv add `包1==x.xx.x` `包2==x.xx.x`                | uv add `包1==x.xx.x` `包2==x.xx.x`              |                          |
 | 导入依赖     | uv add -r requirements.txt                      | poetry add \$(cat requirements.txt)           |                          |
+| 同步包      | uv sync --no-install-project                    | poetry sync --no-root                         |                          |
 
 ## uv run
 
