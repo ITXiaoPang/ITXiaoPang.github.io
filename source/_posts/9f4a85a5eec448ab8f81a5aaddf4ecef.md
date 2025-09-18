@@ -9,7 +9,7 @@ categories:
   - 代码版本管理
   - Git
 date: 1631341383600
-updated: 1757407944569
+updated: 1758161740970
 ---
 
 启用`core.sparsecheckout`后
@@ -19,7 +19,7 @@ updated: 1757407944569
 文件名直接写，目录以/结尾
 前面加!用来排除
 
-```shell
+```bash
 #!/usr/bin/env bash
 git_url=${1}
 proj_directory=${2}

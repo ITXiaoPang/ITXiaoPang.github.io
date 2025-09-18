@@ -14,12 +14,12 @@ categories:
   - 包管理
   - uv
 date: 1751802289305
-updated: 1757670404302
+updated: 1758161483726
 ---
 
 # 格式转换
 
-```shell
+```bash
 uvx migrate-to-uv
 ```
 
