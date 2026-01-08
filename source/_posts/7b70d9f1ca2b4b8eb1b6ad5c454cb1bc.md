@@ -14,7 +14,7 @@ categories:
   - 包管理
   - uv
 date: 1751802289305
-updated: 1758161483726
+updated: 1767669259020
 ---
 
 # 格式转换
@@ -44,8 +44,9 @@ uvx migrate-to-uv
 | 创建库项目    | uv init --lib `proj_name` --python 3.13.5       |                                               | 库为其他项目提供函数和对象，始终是一个打包的项目 |
 | 安装包      | uv add `包1` `包2`                                | poetry add `包1` `包2`                          | 如果没有虚拟环境，都会自动创建一个        |
 | 安装扩展包    | uv add sqlalchemy --extra pymysql --extra mysql | poetry add sqlalchemy -E pymysql -E mysql     |                          |
-| 删除包      | uv remove `包1` `包2`                             | poetry remove `包1` `包2`                       | 删除不用的依赖                  |
+| 更新包      | uv lock --upgrade-package pymysql               | poetry update pymysql                         | 可以追加 `==版本号` 安装指定版本      |
 | 安装特定版本的包 | uv add `包1==x.xx.x` `包2==x.xx.x`                | uv add `包1==x.xx.x` `包2==x.xx.x`              |                          |
+| 删除包      | uv remove `包1` `包2`                             | poetry remove `包1` `包2`                       | 删除不用的依赖                  |
 | 导入依赖     | uv add -r requirements.txt                      | poetry add \$(cat requirements.txt)           |                          |
 | 同步包      | uv sync --no-install-project                    | poetry sync --no-root                         |                          |
 
